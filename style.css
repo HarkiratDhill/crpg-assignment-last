@@ -5,8 +5,7 @@
 }
 /*Header CSS*/
 header{
-    background-image: url('Images/img.webp');
-    background-repeat: no-repeat;
+    background-color: lightblue;
 }
 
 #mainweather ul{
