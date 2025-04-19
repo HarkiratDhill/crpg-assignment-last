@@ -1,0 +1,35 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+section{
+    background-color: aliceblue;
+    padding: 1rem;
+    max-width: 100% auto;
+    border-radius: 1rem;
+    box-shadow: 0.25rem 0.25rem 1rem;
+}
+
+section img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+#notes{
+    grid-column: span 2;
+}
+
+.treatments ul li{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 750px){
+    main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #notes{
+        grid-column: span 1;
+    }
+}
